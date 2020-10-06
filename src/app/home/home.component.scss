@@ -1,0 +1,35 @@
+:host {}
+
+.all-head{
+    display: grid;
+    grid-template-rows: 50px auto;
+    background: url(../../assets/background.png) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 100%;
+
+
+    .header{
+        -webkit-app-region: drag;
+        display: grid;
+        grid-template-columns:50vw auto;
+        background-color: rgba(72, 221, 209, 0.151);
+
+        .info{
+            
+            background-color: blue;
+            height: 50px;
+            // width: 100%;
+            
+        }
+
+        nav{
+            background-color: chartreuse;
+            height: 50px;
+            // width: 100%;
+
+        }
+
+    }
+
+}
