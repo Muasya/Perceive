@@ -89,3 +89,6 @@ E2E Test scripts can be found in `e2e` folder.
 
 Note: To make it work behind a proxy, you can add this proxy exception in your terminal  
 `export {no_proxy,NO_PROXY}="127.0.0.1,localhost"`
+Next milestone
+Making sure all visuals can be server via tcp/ip to eliminate the need of Desktop environment
+
